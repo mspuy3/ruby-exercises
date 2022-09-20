@@ -13,6 +13,19 @@ end
 
 puts "\n"
 
+puts "Item 1.5"
+arr = [1,3,5,7,9,11]
+number = 3
+
+arr.each do |a|
+  if a == number
+    puts "#{number} is in array"
+    break
+  end
+end
+
+puts "\n"
+
 puts "Item 2"
 
 print "Enter a number: "
