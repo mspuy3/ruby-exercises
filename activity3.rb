@@ -6,7 +6,7 @@ def gives_square(num)
   acc = 0
 
   for i in 1..num
-    if (num % i == 0) && ((num / i).floor == i)
+    if ((num / i) == i)
       puts "The square root of #{num} is #{i} and -#{i}"
       acc += 1
       break
