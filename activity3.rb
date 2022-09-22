@@ -16,7 +16,7 @@ def gives_square(num)
   end
 end
 
-print "Give me an integer to test if it has a square root:"
+print "Give me an integer to test if it has a square root: "
 
 number = Integer(gets) rescue false
 
