@@ -1,17 +1,22 @@
+puts "Michael Siemens Uy"
+puts "Ruby Activity September 22 Thursday"
+
 class Human
-  def initialize(name, age = 0)
-     @name = name
-     @age = age
-  end
+   attr_accessor :name, :age
 
-  def hi()
-     puts "Hi #{@name}!"
-  end
+   def initialize(name, age = 0)
+      @name = name
+      @age = age
+   end
 
-  def age_in_5()
-     new_age = @age + 5
-     puts "You will be #{new_age} in 5 years #{@name}"
-  end
+   def hi()
+      puts "Hi #{@name}!"
+   end
+
+   def age_in_5()
+      new_age = @age + 5
+      puts "You will be #{new_age} in 5 years #{@name}"
+   end
 
 end
 
